@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>popup</title>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+<style type="text/css">
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.login-panel{
+    width:400px;
+    height:300px;
+    background-color:#fff;
+    border-radius:4px;
+    margin:0 auto;
+    top:50%;
+    margin-top:-150px;
+    position:relative;
+}
+.elastic-layer{
+    background:rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1000;
+}
+label{
+    width:50px;
+    display:inline-block;
+    text-align:right;
+}
+
+input{
+    display:inline-block;
+    width:200px;
+    height:30px;
+    border-radius:4px;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+.content{
+    padding:5rem;
+    text-align: center;
+}
+
+.close{
+    display: none;
+}
+
+.blur{
+    filter:blur(2px);
+    -webkit-filter:blur(2px);
+}
+
+.btn-blur{
+   
+}
+
+.btn-blur:active{
+    background-color: #f33;
+}
+
+
+.demo_line_01{
+    padding: 0 20px 0;
+    margin: 20px 0;
+    line-height: 2px;
+    border-left: 200px solid red;
+    border-right: 200px solid red;
+    text-align: center;
+}
+}
+</style>
+<script type="text/javascript">
+$(function(){
+    $('.btn-blur').on('click',function(){
+        $('.content').addClass('blur');
+        $('.elastic-layer').removeClass('close');
+        event.stopPropagation();
+    });
+
+    $(".login-panel").on('click',function(){
+        event.stopPropagation();
+    });
+
+    $('body').on('click',function(){
+        $('.content').removeClass('blur');
+        $('.elastic-layer').addClass('close');
+    });
+
+});
+</script>
+<body>
+  
+      
+ 				<img src="img/u68.svg"/ class="btn-blur">
+    <section class="elastic-layer close">
+        <div class="login-panel">
+            <dl>
+                <dd>
+                    <label for="input_id">id:</label>
+                    <input type="text" id="input_id">
+                </dd>
+                <dd>
+                    <label for="input_id">number:</label>
+                    <input type="number">
+                </dd>
+            </dl>
+        </div>  
+    </section>
+</body>
+</html>

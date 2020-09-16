@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #checkboxFourInput{
+            visibility: hidden;
+        }
+        #checkboxFourInput+label{
+            background-color: white;
+            border-radius: 50px;
+            border: 2px solid #b55959;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 20px;
+        }
+        #checkboxFourInput:checked + label{
+            
+        }
+        /* #checkboxFourInput:checked + label:after{
+            content: "";
+            border-radius: 50px;
+            left: 34.5px;
+            position: absolute;
+            background: #b55959;
+            border: #fff solid 2px;
+            height: 16px;
+            width: 16px;
+        } */
+        #checkboxFourInput:checked + label:after{
+            content: "\2713";
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="choosePwd">
+        <input type="checkbox" id="checkboxFourInput"/>
+        <label for="checkboxFourInput"></label>
+    </div>
+</body>
+</html>

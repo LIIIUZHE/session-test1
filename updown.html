@@ -1,0 +1,61 @@
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+     var b = function(){   
+
+    $("body").append("<div id='hid' style='background:red;position:absolute;width:880;height:120'>我是可以拖动的半透明div，Firefox下暂时只能获取点击事件，event无解</div>");   
+
+    $("#hid").fadeTo("slow", 0.5);   
+
+    $("#hid").mousedown(function(event){   
+
+        var offset=$("#hid").offset();   
+
+        x1=event.clientX-offset.left;   
+
+        y1=event.clientY-offset.top;   
+
+        $("#hid").mousemove(function(event){   
+
+           $("#hid").css("left",(event.clientX-x1)+"px");   
+
+            $("#hid").css("top",(event.clientY-y1)+"px");   
+
+/*
+
+$("#hid").animate({
+left : _x + "px",
+top : _y + "px"
+}, 10);
+
+*/
+
+        });   
+
+        $("#hid").mouseup(function(event){   
+
+            $("#hid").unbind("mousemove");   
+
+        });   
+
+    });   
+
+}   
+   </script>
+
+	</head>
+
+	<body>
+
+		<input type="button" value="向左" id="left">
+		<input type="button" value="向右" id="right">
+		<input type="button" value="向上" id="top">
+		<input type="button" value="向下" id="bottom">
+		<div id="dd" style="position: absolute; background-color: springgreen; width: 100px; height: 100px; left: 100px;top: 100px;"></div><br>
+
+	</body>
+
+</html>

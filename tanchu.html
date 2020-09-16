@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>bootstrap-table-demo-分页</title>
+		<!-- 引入bootstrap样式 -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<!-- 引入bootstrap-table样式 -->
+		<link rel="stylesheet" href="css/bootstrap-table.min.css" />
+
+	</head>
+
+	<body style="width: 90%;margin: 0 auto;">
+
+		<div class="modal fade" id="NoPermissionModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						
+						<h4 class="modal-title" id="NoPermissionModalLabel">会话信息</h4>
+					</div>
+					<div class="modal-body">
+						<iframe id="NoPermissioniframe" width="100%" height="50%" frameborder="0"></iframe>
+					</div>
+					<div class="modal-footer">
+						              <button type="button" class="btn btn-default " data-dismiss="modal">    关  闭    </button>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<br /><br /><br />
+		<input type="button" value="会话信息" class="btn btn-primary" id="btnclick"><img src="https://img-blog.csdn.net/20140923180316546?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY2hpbmFwbGFu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="" />
+
+		<!-- jquery -->
+		<script type="text/javascript " src="js/jquery-3.2.1.min.js "></script>
+		<!-- bootstrap -->
+		<script type="text/javascript " src="js/bootstrap.min.js "></script>
+		<!-- bootstrap-table -->
+		<script type="text/javascript " src="js/bootstrap-table.min.js "></script>
+
+		<script type="text/javascript ">
+			$(function() {
+				$("#btnclick").click(function() {
+					var frameSrc = "../test1/page.html";
+					$("#NoPermissioniframe").attr("src", frameSrc);
+					$('#NoPermissionModal').modal({
+						show: true,
+						backdrop: 'static'
+					});
+				});
+			});
+		</script>
+
+	</body>
+
+</html>

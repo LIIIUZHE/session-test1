@@ -1,0 +1,424 @@
+/*整体div*/
+
+#divbak {
+    width: 722px;
+    height: 570px;
+    background-color: #F2F2F2;
+    border: 1px solid rgb(127, 127, 127);
+    border-radius: 5px;
+    position: absolute;
+    left: 22%;
+    "
+
+}
+
+
+/*用户会话数量*/
+
+#u405_div {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 80px;
+    height: 18px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: '思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+#u405 {
+    border-width: 0px;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    width: 153px;
+    height: 36px;
+    display: flex;
+    font-family: '思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+#u405 .text {
+    position: absolute;
+    align-self: flex-start;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#u405_text {
+    border-width: 0px;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+
+/*用户会话数量文字左侧图标*/
+
+#u406_img {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+}
+
+#u406 {
+    border-width: 0px;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+}
+
+#u406 .text {
+    position: absolute;
+    align-self: center;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#u406_text {
+    border-width: 0px;
+    word-wrap: break-word;
+    text-transform: none;
+    visibility: hidden;
+}
+
+
+/*柱状图*/
+
+#u396 {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+
+/*柱状图*/
+
+#u397_img {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 328px;
+    height: 230px;
+}
+
+#u397 {
+    border-width: 0px;
+    position: absolute;
+    left: 40px;
+    top: 67px;
+    width: 328px;
+    height: 256px;
+    display: flex;
+}
+
+#u397 .text {
+    position: absolute;
+    align-self: center;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+/*会话概况*/
+
+#u403_div {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 51px;
+    height: 18px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: '思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+#u403 {
+    border-width: 0px;
+    position: absolute;
+    left: 430px;
+    top: 22px;
+    width: 51px;
+    height: 18px;
+    display: flex;
+    font-family: '思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+#u403 .text {
+    position: absolute;
+    align-self: flex-start;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#u403_text {
+    border-width: 0px;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+
+/*会话概况左侧图标*/
+
+#u404_img {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+}
+
+#u404 {
+    border-width: 0px;
+    position: absolute;
+    left: 410px;
+    top: 33px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+}
+
+#u404 .text {
+    position: absolute;
+    align-self: center;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#u404_text {
+    border-width: 0px;
+    word-wrap: break-word;
+    text-transform: none;
+    visibility: hidden;
+}
+
+
+/*您的当前选择*/
+
+#u408_div {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 310px;
+    height: 27px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: '思源黑体 CN';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #027DB4;
+}
+
+#u408 {
+    border-width: 0px;
+    position: absolute;
+    left: 430px;
+    top: 60px;
+    width: 310px;
+    height: 27px;
+    display: flex;
+    font-family: '思源黑体 CN';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: #027DB4;
+}
+
+#u408 .text {
+    position: absolute;
+    align-self: flex-start;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#u408_text {
+    border-width: 0px;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+
+/*选择会话左侧按钮*/
+
+#u491 {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+#u493_img {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 12px;
+    height: 12px;
+}
+
+#u493 {
+    border-width: 0px;
+    position: absolute;
+    left: 250px;
+    top: 937px;
+    width: 12px;
+    height: 12px;
+    display: flex;
+}
+
+#u493 .text {
+    position: absolute;
+    align-self: center;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#u493_text {
+    border-width: 0px;
+    word-wrap: break-word;
+    text-transform: none;
+    visibility: hidden;
+}
+
+
+/*会话管理左侧图标*/
+
+#u412_img {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+}
+
+#u412 {
+    border-width: 0px;
+    position: absolute;
+    left: 60px;
+    top: 310px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+}
+
+#u412 .text {
+    position: absolute;
+    align-self: center;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#u412_text {
+    border-width: 0px;
+    word-wrap: break-word;
+    text-transform: none;
+    visibility: hidden;
+}
+
+
+/*会话管理*/
+
+#u407_div {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 102px;
+    height: 36px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: '思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+#u407 {
+    border-width: 0px;
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    width: 102px;
+    height: 36px;
+    display: flex;
+    font-family: '思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+#u407 .text {
+    position: absolute;
+    align-self: flex-start;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#u407_text {
+    border-width: 0px;
+    white-space: nowrap;
+    text-transform: none;
+}

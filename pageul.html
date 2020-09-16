@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js">
+			
+		</script>
+
+		<title></title>
+	</head>
+
+	<body>
+		<div id="list"class="list">               
+                <ul id="all"></ul>
+            </div>
+            <div id="pagecount"></div>
+	</body>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+	$.ajax({
+		data:"",
+		type:"GET",
+		dataType:"json",
+		url:"data1.json",
+		success:function (result){
+			var str="";
+			for(i=0;i<result.length;i++){
+				//alert(result[i].name);
+				str+="<li>"+result[i].name+"</li>";
+				//alert(str);
+			}
+			
+			$("#all").html(str);
+		}
+			
+		});
+	
+});
+	</script>
+
+</html>
